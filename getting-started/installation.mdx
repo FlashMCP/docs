@@ -42,9 +42,9 @@ Python version:                            3.12.2
 Platform:            macOS-15.3.1-arm64-arm-64bit
 FlashMCP root path:            ~/Developer/FlashMCP
 ```
-## Upgrading from the Official MCP SDK
+## Installing from the Official MCP SDK
 
-Upgrading from the official MCP SDK's FlashMCP 1.0 to FlashMCP 2.0 is generally straightforward. The core server API is highly compatible, and in many cases, changing your import statement from `from mcp.server.FlashMCP import FlashMCP` to `from FlashMCP import FlashMCP` will be sufficient. 
+Installing from the official MCP SDK's FlashMCP is generally straightforward. The core server API is highly compatible, and in many cases, changing your import statement from `from mcp.server.FlashMCP import FlashMCP` to `from FlashMCP import FlashMCP` will be sufficient. 
 
 
 ```python {1-5}
@@ -65,7 +65,7 @@ Prior to `FlashMCP==2.3.0` and `mcp==1.8.0`, the 2.x API always mirrored the 1.0
 If you plan to contribute to FlashMCP, you should begin by cloning the repository and using uv to install all dependencies (development dependencies are installed automatically):
 
 ```bash
-git clone https://github.com/jlowin/FlashMCP.git
+git clone https://github.com/FlashMCP/FlashMCP.git
 cd FlashMCP
 uv sync
 ```

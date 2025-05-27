@@ -23,9 +23,7 @@
     },
     "name": "FlashMCP",
     "navbar": {
-        "primary": {
-            "href": "https://github.com/jlowin/FlashMCP",
-            "type": "github"
+        
         }
     },
     "navigation": {
